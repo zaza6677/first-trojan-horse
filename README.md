@@ -30,5 +30,3 @@ It actually consists of two processes; one of them is win32.exe which changes re
 For starting win32.exe you should just run winconf.exe. It first checks if another instance of this virus is already available and if it exists, it just closes the process silently else if not, it copies itself to target directory and listens to commands from servers.
 
 If winconf is started from win32 then it just tries to listen.
-
-I made the source code available in the following link, however it has been modified to prevent abuse.
